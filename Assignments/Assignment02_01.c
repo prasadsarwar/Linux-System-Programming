@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
     if(argc != 2)
     {
-        printf("Insufficiient number of bytes\n");
+        printf("Insufficiient number of arguments\n");
         return -1;
     }
 
@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
     }
 
     printf("\n");
-    
+
     close(fd);
 
     return 0;
