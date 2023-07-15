@@ -3,7 +3,7 @@
 // write a program to accept directory name from user and print all     //
 // file names of that directory                                         //
 //                                                                      //
-// Usage : ./exe file_name "string"                                     //
+// Usage : ./exe folder_name                                    	    //
 //                                                                      //
 //////////////////////////////////////////////////////////////////////////
 
