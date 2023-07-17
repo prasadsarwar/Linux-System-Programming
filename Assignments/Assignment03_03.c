@@ -13,7 +13,7 @@
 
 int main(int argc, char *argv[])
 {
-    DIR *dp1 = NULL, *dp2 = NULL;
+    DIR *dp1 = NULL;
     struct dirent *entry = NULL;
     char oldname[30];
     char newname[30];
@@ -25,9 +25,8 @@ int main(int argc, char *argv[])
     }
 
     dp1 = opendir(argv[1]);
-    dp2 = opendir(argv[2]);
 
-    if((dp1 == NULL) || (dp2 == NULL))
+    if((dp1 == NULL))
     {
         printf("Unable to open directory\n");
         return -1;
@@ -42,7 +41,6 @@ int main(int argc, char *argv[])
     }
 
     closedir(dp1);
-    closedir(dp2);
 
     return 0;
 }
