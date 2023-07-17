@@ -3,9 +3,7 @@
 // write a program which accept name of directory and create directory  //
 // of that name                                                         //
 //                                                                      //
-// Usage : ./exe < output.txt > input.txt                               //
-//                                                                      //
-// Input.txt : 10 11                                                    //
+// Usage : ./exe directory_name                                         //
 //                                                                      //
 //////////////////////////////////////////////////////////////////////////
 
