@@ -4,14 +4,6 @@
 // all file names which are present on desktop in demo file which should    //
 // be created newly                                                         //
 //                                                                          //
-// output:                                                                  //
-// Process 2 started...                                                     //
-// Parent process waiting for child process to complete..                   //
-// Process 3 started...                                                     //
-// Process 3 completed...                                                   //
-// Process 2 completed...                                                   //
-// Both child process completed.. exiting parent process..                  //
-//                                                                          //
 //////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
