@@ -1,0 +1,17 @@
+Write a program which is used to create shared library and that
+library should be loaded at run time by other program
+
+That library should contains functions to perform arithmatic 
+operations like addition, subtraction, multiplication, division
+
+
+
+
+output:
+
+./MyExe 500 100
+Addition: 600
+Subtraction: 400
+Multiplication: 50000
+Division: 5
+Modulus: 0
