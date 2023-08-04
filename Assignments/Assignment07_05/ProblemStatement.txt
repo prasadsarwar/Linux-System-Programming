@@ -1,0 +1,12 @@
+Write a program which creates static library which contains file name from user and which
+displays the information of that file
+
+
+output:
+
+./MyExe ProblemStatement.txt 
+File name : ProblemStatement.txt
+Inode number: 5899665
+File size: 127
+Number of links: 1
+Number of blocks : 8
